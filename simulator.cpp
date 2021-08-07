@@ -44,7 +44,7 @@ private:
 
   void get_vaccination() {
     long long int tp = 0;
-    int n = fetchData(&tp);
+    fetchData(&tp);
     struct Data* datas = (struct Data*) *((long long int*)tp);
     vaccinated_ratio[0] = atof(datas[0].per) / 200;
     vaccinated_ratio[1] = atof(datas[1].per) / 200;
