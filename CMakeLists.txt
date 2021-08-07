@@ -3,4 +3,4 @@ project(covid_simulator)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(covid_simulator simulator.cpp)
+add_executable(covid_simulator simulator.cpp center.h csvstream.h)

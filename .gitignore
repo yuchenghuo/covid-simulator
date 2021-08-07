@@ -8,6 +8,7 @@
 
 # Executables and debug files
 main
+*.csv
 *.exe
 *.dSYM
 *.stackdump
